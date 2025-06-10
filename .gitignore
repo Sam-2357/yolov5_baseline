@@ -1,3 +1,11 @@
+# Dataset paths (absolute or symlinked) must never be committed
+datasets/
+data/
+*.jpg
+*.png
+*.txt
+*.cache
+
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
 *.jpg
 *.jpeg
@@ -41,6 +49,7 @@ results*.csv
 coco/
 coco128/
 VOC/
+
 
 # MATLAB GitIgnore -----------------------------------------------------------------------------------------------------
 *.m~
